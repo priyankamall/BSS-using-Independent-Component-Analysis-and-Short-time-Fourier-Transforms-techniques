@@ -98,7 +98,6 @@ tf2=tfanalysis(x2,awin,timestep,numfreq);%time-freq domain
 tf1(1,:)=[];
 tf2(1,:)=[];%remove dc component from mixtures
 %eps is the a small constant to avoid dividing by zero frequency in the delay estimation
-
 %calculate pos/neg frequencies for later use in delay calc ??
 freq=[(1:numfreq/2) ((-numfreq/2)+1:-1)]*(2*pi/(numfreq)); % freq looks like saw signal
 fmat=freq(ones(size(tf1,2),1),:)';
