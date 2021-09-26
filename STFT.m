@@ -5,7 +5,6 @@ function x=tfsynthesis(timefreqmat,swin,timestep,numfreq)
 %TIMESTEP is the # of samples between adjacent time windows.
 %NUMFREQ is the # of frequency components per time point.
 %X contains the reconstructed signal.
-
 swin=swin(:); %make synthesis window go column-wise
 winlen=length(swin);
 [numfreq numtime]=size(timefreqmat);
