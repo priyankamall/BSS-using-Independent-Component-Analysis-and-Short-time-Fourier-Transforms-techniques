@@ -86,7 +86,7 @@ clc
 clear all
 close all
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    setp 1,2,3
+%setp 1,2,3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %1. analyze the signals - STFT
 %1) Create the spectrogram of the Left and Right channels.
