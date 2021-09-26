@@ -20,7 +20,6 @@ for i=1:numtime%overlap,window,andadd
     x(rind)=x(rind)+temp(ind).*swin;
 end
 
-
 function tfmat=tfanalysis(x,awin,timestep,numfreq)
 %time-frequency analysis
 %X is the time domain signal
