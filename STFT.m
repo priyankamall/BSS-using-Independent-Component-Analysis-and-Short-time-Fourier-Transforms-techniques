@@ -49,7 +49,6 @@ laste=min((sind+wlen-1),length(x));
 tfmat(:,end)=fft([x(lasts:laste);
                     zeros(wlen-(laste-lasts+1),1)].*awin,numfreq);
                     
-                    
 function smat=twoDsmooth(mat,ker)
 %TWO2SMOOTH?Smooth 2D matrix.
 %
