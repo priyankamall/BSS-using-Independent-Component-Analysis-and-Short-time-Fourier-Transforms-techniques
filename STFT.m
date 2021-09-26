@@ -30,7 +30,7 @@ function tfmat=tfanalysis(x,awin,timestep,numfreq)
 %TFMAT complex matrix time-freq representation
 
 x=x(:); 
-awin=awin(:);%make inputs go column-wise
+awin=awin(:); %make inputs go column-wise
 nsamp=length(x);
 wlen=length(awin);
 %calc size and init output t-f matrix
