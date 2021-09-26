@@ -374,7 +374,6 @@ end
 % Decompose the final 2D kernel
 [k1{1},k1{2}] = decompose_2D(h);
 
-
 % Reconstruct nD matrix from 1D components
 kn = k1{1}*k1{2};
 for ii=3:length(k1)
