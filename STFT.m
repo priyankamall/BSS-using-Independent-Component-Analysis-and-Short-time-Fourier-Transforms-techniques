@@ -124,7 +124,6 @@ maxa=0.7;
 maxd=3.6;%histogram boundaries for alpha, delta
 abins=35;
 dbins=50;%number of hist bins for alpha, delta
-
 %only consider time-freq points yielding estimates in bounds
 amask=(abs(alpha)<maxa)&(abs(delta)<maxd);
 alphavec=alpha(amask);
