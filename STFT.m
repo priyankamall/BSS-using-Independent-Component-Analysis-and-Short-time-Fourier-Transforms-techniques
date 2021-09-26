@@ -27,7 +27,6 @@ function tfmat=tfanalysis(x,awin,timestep,numfreq)
 %AWIN is an analysis window
 %TIMESTEP is the # of samples between adjacent time windows.
 %NUMFREQ is the # of frequency components per time point.
-
 %TFMAT complex matrix time-freq representation
 x=x(:); 
 awin=awin(:);%make inputs go column-wise
