@@ -19,7 +19,6 @@ for i=1:numtime%overlap,window,andadd
 end
 
 function tfmat=tfanalysis(x,awin,timestep,numfreq)
-
 %time-frequency analysis
 %X is the time domain signal
 %AWIN is an analysis window
