@@ -107,7 +107,6 @@ fmat=freq(ones(size(tf1,2),1),:)';
 %   right channels. This gives two new coordinates, instead of time-frequency 
 %   it is phase-amplitude differences.
 R21=(tf2+eps)./(tf1+eps);%time-freqratioofthemixtures
-
 %%%2.1HERE WE ESTIMATE THE RELATIVE ATTENUATION (alpha)%%%
 a=abs(R21);%relative attenuation between the two mixtures
 alpha=a-1./a;%'alpha' (symmetric attenuation)
