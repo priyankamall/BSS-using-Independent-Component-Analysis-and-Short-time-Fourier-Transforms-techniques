@@ -129,7 +129,6 @@ amask=(abs(alpha)<maxa)&(abs(delta)<maxd);
 alphavec=alpha(amask);
 deltavec=delta(amask);
 tfweight=tfweight(amask);
-
 %determine histogram indices (sampled indices?)
 alphaind=round(1+(abins-1)*(alphavec+maxa)/(2*maxa));
 deltaind=round(1+(dbins-1)*(deltavec+maxd)/(2*maxd));
