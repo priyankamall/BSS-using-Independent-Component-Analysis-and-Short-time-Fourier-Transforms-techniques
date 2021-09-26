@@ -32,7 +32,7 @@ function tfmat=tfanalysis(x,awin,timestep,numfreq)
 x=x(:); 
 awin=awin(:); %make inputs go column-wise
 nsamp=length(x);
-wlen=length(awin);%calc size and init output t-f matrix
+wlen=length(awin); %calc size and init output t-f matrix
 numtime=ceil((nsamp-wlen+1)/timestep);
 tfmat=zeros(numfreq,numtime+1);
 
