@@ -57,7 +57,6 @@ function smat=twoDsmooth(mat,ker)
 %(1)a scalar,in which case a ker?by?ker matrix of 1/ker?2 is used 
 %as the matrix averaging kernel
 %(2)a matrix which is used as the averaging kernel.
-%
 %SMATisthesmoothedmatrix(samesizeasmat).
 if numel(ker)==1,%prod(size(ker))==1 if ker is a scalar
     kmat=ones(ker,ker)/ker^2;
