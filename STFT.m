@@ -122,7 +122,6 @@ p=1; q=0; %powers used to weight histogram
 tfweight=(abs(tf1).*abs(tf2)).^p.*abs(fmat).^q; %weights vector
 maxa=0.7;
 maxd=3.6;%histogram boundaries for alpha, delta
-
 abins=35;
 dbins=50;%number of hist bins for alpha, delta
 
