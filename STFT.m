@@ -52,7 +52,6 @@ tfmat(:,end)=fft([x(lasts:laste);
 function smat=twoDsmooth(mat,ker)
 %TWO2SMOOTH?Smooth 2D matrix.
 %smat=twoDsmooth(mat,ker)
-%
 %MAT is the 2D matrix to be smoothed.
 %KER is either
 %(1)a scalar,in which case a ker?by?ker matrix of 1/ker?2 is used 
