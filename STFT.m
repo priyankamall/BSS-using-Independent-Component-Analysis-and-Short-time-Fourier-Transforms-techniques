@@ -41,6 +41,7 @@ for i=1:numtime
 end
 
 % below is inelegant... but apparently works.
+
 i=i+1;
 sind=((i-1)*timestep)+1;
 lasts=min(sind,length(x));
