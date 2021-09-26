@@ -207,8 +207,6 @@ for i=1:numsources
     soundsc(est(i,:)+0.05*x1',fs);% original code seems to have missed the transpose play demixture
 end
 
-
-
 function [k1,kn,err] = decompose_kernel(h_orig)
 % This function does the decomposition of a separable nD kernel into
 % its 1D components, such that a convolution with each of these
