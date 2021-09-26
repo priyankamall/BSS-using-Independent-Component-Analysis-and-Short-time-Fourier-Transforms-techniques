@@ -390,7 +390,6 @@ end
 % Calculate the error we made
 err = sum(abs(h_orig(:)-kn(:)));
 
-
 function [h1,h2] = decompose_2D(h)
 % This does the decomposition of a 2D kernel into 2 1D kernels
 % More or less a direct copy-paste from the FILTER2 function
