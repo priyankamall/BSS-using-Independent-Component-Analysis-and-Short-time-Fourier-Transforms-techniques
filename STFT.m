@@ -1,4 +1,5 @@
 function x=tfsynthesis(timefreqmat,swin,timestep,numfreq)
+
 %time-frequency synthesis
 %TIMEFREQMAT is the complex matrix time-freq representation
 %SWIN is the synthesis window
