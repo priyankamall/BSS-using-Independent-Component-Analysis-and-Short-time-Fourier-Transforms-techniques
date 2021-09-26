@@ -152,7 +152,6 @@ A=twoDsmooth(A+10,1);
 %plot2-Dhistogram
 mesh(linspace(-maxd,maxd,dbins),linspace(-maxa,maxa,abins),A);
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    step 4,5,6,7
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
