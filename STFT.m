@@ -34,8 +34,7 @@ awin=awin(:); %make inputs go column-wise
 nsamp=length(x);
 wlen=length(awin); %calc size and init output t-f matrix
 numtime=ceil((nsamp-wlen+1)/timestep);
-tfmat=zeros(numfreq,numtime+1);
-% so this loop samples x, I though x is already a sample.
+tfmat=zeros(numfreq,numtime+1);% so this loop samples x, I though x is already a sample.
 for i=1:numtime
     sind=((i-1)*timestep)+1; % current start index
     tfmat(:,i)=fft(x(sind:(sind+wlen-1)).*awin,numfreq);
