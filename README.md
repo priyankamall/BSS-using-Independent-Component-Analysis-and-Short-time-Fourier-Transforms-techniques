@@ -32,4 +32,4 @@ transform (STFT) of the audio inputs, we can represent the inputs as the followi
 
 
 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Your_GitHub_Username&theme=blue-green)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=priyankamall&theme=blue-green)
